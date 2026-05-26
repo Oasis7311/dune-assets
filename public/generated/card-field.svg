@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" role="img" aria-label="Dune card field">
+  <defs>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="0.48" stop-color="#d7c58b"/>
+      <stop offset="1" stop-color="#6c8a82"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="560" rx="28" fill="url(#card)"/>
+  <path d="M36 405 C120 350 198 422 280 376 C338 344 372 360 410 330 L410 560 L36 560 Z" fill="#14363d" opacity="0.20"/>
+  <path d="M44 88 H376 M44 470 H376" stroke="#14363d" stroke-width="8" opacity="0.25"/>
+  <circle cx="210" cy="280" r="82" fill="none" stroke="#9d3f42" stroke-width="10" opacity="0.23"/>
+  <path d="M140 282 C175 248 245 248 280 282 C246 316 174 316 140 282 Z" fill="#14363d" opacity="0.23"/>
+</svg>

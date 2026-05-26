@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Sandworm">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#312a27"/>
+      <stop offset="0.55" stop-color="#7d5b46"/>
+      <stop offset="1" stop-color="#d0a35d"/>
+    </linearGradient>
+    <radialGradient id="mouth" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#1d1311"/>
+      <stop offset="0.72" stop-color="#3a1918"/>
+      <stop offset="1" stop-color="#c17b43"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="520" fill="#14363d"/>
+  <path d="M0 380 C120 325 220 390 340 338 C480 278 610 300 900 205 L900 520 L0 520 Z" fill="#d8c38f"/>
+  <path d="M90 365 C250 210 420 160 680 148 C780 144 850 170 885 230 C770 250 655 280 530 334 C350 412 210 418 90 365 Z" fill="url(#body)"/>
+  <ellipse cx="690" cy="224" rx="170" ry="110" fill="url(#mouth)"/>
+  <g stroke="#e4c789" stroke-width="5" opacity="0.9">
+    <path d="M585 170 L675 224 L595 280"/>
+    <path d="M635 145 L705 222 L645 305"/>
+    <path d="M695 135 L735 224 L700 315"/>
+    <path d="M760 158 L760 222 L782 286"/>
+  </g>
+  <g fill="#f3d47e" opacity="0.5">
+    <circle cx="165" cy="384" r="5"/>
+    <circle cx="240" cy="382" r="3"/>
+    <circle cx="315" cy="365" r="4"/>
+  </g>
+</svg>
