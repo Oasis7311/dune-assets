@@ -36,13 +36,19 @@
   <rect x="33" y="137" width="384" height="218" rx="17" fill="#110d09" opacity="0.78"/>
   <g clip-path="url(#artClip)">
     
-    <rect x="38" y="142" width="374" height="208" fill="url(#artSky)"/>
-    <circle cx="334" cy="189" r="46" fill="#ffe8a3" opacity="0.9"/>
-    <path d="M38 230 C100 196, 164 252, 224 226 C291 197, 348 240, 412 215 L412 350 L38 350 Z" fill="#21180d" opacity="0.52"/>
-    <path d="M38 248 C132 223, 180 266, 265 244 C332 227, 371 264, 412 252 L412 350 L38 350 Z" fill="#2a170f" opacity="0.62"/>
-    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f5d27f" stroke-opacity="0.44" stroke-width="4"/>
+    <rect x="38" y="142" width="374" height="208" fill="#695637"/>
+    <circle cx="344" cy="160" r="34" fill="#ffe2a4" opacity="0.86"/>
+    
+    <path d="M71 186 C127 169, 181 190, 232 174 C286 156, 339 180, 392 164" fill="none" stroke="#fff3bd" stroke-opacity="0.16" stroke-width="2"/>
+    <path d="M38 248 C100 214, 164 270, 224 244 C291 215, 348 258, 412 233 L412 350 L38 350 Z" fill="#342615" opacity="0.58"/>
+    <path d="M38 258 C132 233, 180 276, 265 254 C332 237, 371 274, 412 262 L412 350 L38 350 Z" fill="#21180d" opacity="0.62"/>
+    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#ff8c74" stroke-opacity="0.42" stroke-width="4"/>
     <path d="M88 338 C161 314, 233 342, 331 323" fill="none" stroke="#f8e6aa" stroke-opacity="0.28" stroke-width="3"/>
-    <path d="M225 188 L287 237 L263 314 H187 L163 237 Z" fill="#fff2c4" opacity="0.86" stroke="#20140d" stroke-width="3"/><circle cx="225" cy="250" r="24" fill="#20140d" opacity="0.82"/>
+    
+    <path d="M225 188 L288 237 L264 316 H186 L162 237 Z" fill="#ff8c74" opacity="0.82" stroke="#20140d" stroke-width="4"/>
+    <circle cx="225" cy="251" r="25" fill="#20140d" opacity="0.78"/>
+    <path d="M225 211 V292 M184 251 H266" stroke="#fff2c4" stroke-opacity="0.64" stroke-width="6" stroke-linecap="round"/>
+    <text x="396" y="335" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff7dc" opacity="0.42">02</text>
   
   </g>
   <rect x="38" y="142" width="374" height="208" rx="14" fill="none" stroke="#fff2c4" stroke-opacity="0.58" stroke-width="2"/>

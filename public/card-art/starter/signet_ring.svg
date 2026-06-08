@@ -39,13 +39,22 @@
   <rect x="33" y="137" width="384" height="218" rx="17" fill="#110d09" opacity="0.78"/>
   <g clip-path="url(#artClip)">
     
-    <rect x="38" y="142" width="374" height="208" fill="url(#artSky)"/>
-    <circle cx="179" cy="189" r="46" fill="#ffe8a3" opacity="0.9"/>
-    <path d="M38 221 C100 187, 164 243, 224 217 C291 188, 348 231, 412 206 L412 350 L38 350 Z" fill="#0f1720" opacity="0.52"/>
-    <path d="M38 298 C132 273, 180 316, 265 294 C332 277, 371 314, 412 302 L412 350 L38 350 Z" fill="#2a170f" opacity="0.62"/>
-    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f5d27f" stroke-opacity="0.44" stroke-width="4"/>
+    <rect x="38" y="142" width="374" height="208" fill="#1b4f62"/>
+    <circle cx="263" cy="181" r="30" fill="#bde8ff" opacity="0.86"/>
+    
+    <circle cx="135" cy="184" r="64" fill="none" stroke="#bde8ff" stroke-opacity="0.22" stroke-width="2"/>
+    <circle cx="294" cy="176" r="38" fill="none" stroke="#bde8ff" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M63 207 C142 178, 264 202, 384 168" fill="none" stroke="#bde8ff" stroke-opacity="0.20" stroke-width="2"/>
+    <path d="M38 241 C100 207, 164 263, 224 237 C291 208, 348 251, 412 226 L412 350 L38 350 Z" fill="#112f3a" opacity="0.58"/>
+    <path d="M38 276 C132 251, 180 294, 265 272 C332 255, 371 292, 412 280 L412 350 L38 350 Z" fill="#0f1720" opacity="0.62"/>
+    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f0c76f" stroke-opacity="0.42" stroke-width="4"/>
     <path d="M88 338 C161 314, 233 342, 331 323" fill="none" stroke="#f8e6aa" stroke-opacity="0.28" stroke-width="3"/>
-    <path d="M146 294 C179 231, 203 203, 225 193 C247 203, 271 231, 304 294 C264 276, 186 276, 146 294 Z" fill="#fff2c4" opacity="0.86" stroke="#20140d" stroke-width="3"/><path d="M225 192 C212 236, 212 273, 225 315 C238 273, 238 236, 225 192 Z" fill="#20140d" opacity="0.72"/>
+    
+    <path d="M85 260 C143 224, 222 220, 339 243 C291 280, 189 294, 85 260 Z" fill="#f0c76f" opacity="0.82" stroke="#101820" stroke-width="4"/>
+    <path d="M145 248 C193 232, 258 233, 315 246" fill="none" stroke="#fff7d0" stroke-opacity="0.72" stroke-width="4"/>
+    <path d="M80 200 L129 188 L117 211 Z M327 194 L382 179 L366 210 Z" fill="#fff2c4" opacity="0.58"/>
+    <circle cx="333" cy="302" r="20" fill="none" stroke="#f0c76f" stroke-width="7" opacity="0.86"/><circle cx="333" cy="302" r="7" fill="#fff2c4" opacity="0.84"/>
+    <text x="396" y="335" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff7dc" opacity="0.42">01</text>
   
   </g>
   <rect x="38" y="142" width="374" height="208" rx="14" fill="none" stroke="#fff2c4" stroke-opacity="0.58" stroke-width="2"/>

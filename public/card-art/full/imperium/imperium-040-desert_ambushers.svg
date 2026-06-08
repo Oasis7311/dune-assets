@@ -39,13 +39,16 @@
   <rect x="33" y="137" width="384" height="218" rx="17" fill="#110d09" opacity="0.78"/>
   <g clip-path="url(#artClip)">
     
-    <rect x="38" y="142" width="374" height="208" fill="url(#artSky)"/>
-    <circle cx="136" cy="189" r="46" fill="#ffe8a3" opacity="0.9"/>
-    <path d="M38 228 C100 194, 164 250, 224 224 C291 195, 348 238, 412 213 L412 350 L38 350 Z" fill="#30170f" opacity="0.52"/>
-    <path d="M38 290 C132 265, 180 308, 265 286 C332 269, 371 306, 412 294 L412 350 L38 350 Z" fill="#2a170f" opacity="0.62"/>
-    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f5d27f" stroke-opacity="0.44" stroke-width="4"/>
+    <rect x="38" y="142" width="374" height="208" fill="#c98f52"/>
+    <circle cx="194" cy="203" r="38" fill="#ffdda0" opacity="0.86"/>
+    
+    <path d="M71 186 C127 169, 181 190, 232 174 C286 156, 339 180, 392 164" fill="none" stroke="#fff3bd" stroke-opacity="0.16" stroke-width="2"/>
+    <path d="M38 218 C100 184, 164 240, 224 214 C291 185, 348 228, 412 203 L412 350 L38 350 Z" fill="#704326" opacity="0.58"/>
+    <path d="M38 276 C132 251, 180 294, 265 272 C332 255, 371 292, 412 280 L412 350 L38 350 Z" fill="#30170f" opacity="0.62"/>
+    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f3bd74" stroke-opacity="0.42" stroke-width="4"/>
     <path d="M88 338 C161 314, 233 342, 331 323" fill="none" stroke="#f8e6aa" stroke-opacity="0.28" stroke-width="3"/>
-    <path d="M146 294 C179 231, 203 203, 225 193 C247 203, 271 231, 304 294 C264 276, 186 276, 146 294 Z" fill="#fff2c4" opacity="0.86" stroke="#20140d" stroke-width="3"/><path d="M225 192 C212 236, 212 273, 225 315 C238 273, 238 236, 225 192 Z" fill="#20140d" opacity="0.72"/>
+    <path d="M146 294 C179 231, 203 203, 225 193 C247 203, 271 231, 304 294 C264 276, 186 276, 146 294 Z" fill="#fff2c4" opacity="0.88" stroke="#20140d" stroke-width="3"/><path d="M225 192 C212 236, 212 273, 225 315 C238 273, 238 236, 225 192 Z" fill="#20140d" opacity="0.78"/>
+    <text x="396" y="335" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff7dc" opacity="0.42">02</text>
   
   </g>
   <rect x="38" y="142" width="374" height="208" rx="14" fill="none" stroke="#fff2c4" stroke-opacity="0.58" stroke-width="2"/>

@@ -36,13 +36,20 @@
   <rect x="33" y="137" width="384" height="218" rx="17" fill="#110d09" opacity="0.78"/>
   <g clip-path="url(#artClip)">
     
-    <rect x="38" y="142" width="374" height="208" fill="url(#artSky)"/>
-    <circle cx="259" cy="189" r="46" fill="#ffe8a3" opacity="0.9"/>
-    <path d="M38 235 C100 201, 164 257, 224 231 C291 202, 348 245, 412 220 L412 350 L38 350 Z" fill="#171024" opacity="0.52"/>
-    <path d="M38 258 C132 233, 180 276, 265 254 C332 237, 371 274, 412 262 L412 350 L38 350 Z" fill="#2a170f" opacity="0.62"/>
-    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f5d27f" stroke-opacity="0.44" stroke-width="4"/>
+    <rect x="38" y="142" width="374" height="208" fill="#72513e"/>
+    <circle cx="241" cy="156" r="34" fill="#f7cf78" opacity="0.86"/>
+    
+    <path d="M71 186 C127 169, 181 190, 232 174 C286 156, 339 180, 392 164" fill="none" stroke="#fff3bd" stroke-opacity="0.16" stroke-width="2"/>
+    <path d="M38 249 C100 215, 164 271, 224 245 C291 216, 348 259, 412 234 L412 350 L38 350 Z" fill="#38251d" opacity="0.58"/>
+    <path d="M38 254 C132 229, 180 272, 265 250 C332 233, 371 270, 412 258 L412 350 L38 350 Z" fill="#171024" opacity="0.62"/>
+    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#c8b6ff" stroke-opacity="0.42" stroke-width="4"/>
     <path d="M88 338 C161 314, 233 342, 331 323" fill="none" stroke="#f8e6aa" stroke-opacity="0.28" stroke-width="3"/>
-    <path d="M225 198 C258 213, 279 235, 289 265 C264 286, 235 296, 197 293 C168 270, 158 241, 171 211 C186 198, 205 193, 225 198 Z" fill="#fff2c4" opacity="0.86" stroke="#20140d" stroke-width="3"/><circle cx="225" cy="244" r="21" fill="#20140d" opacity="0.86"/>
+    
+    <path d="M166 312 V221 L225 190 L284 221 V312 Z" fill="#c8b6ff" opacity="0.82" stroke="#20140d" stroke-width="4"/>
+    <path d="M191 312 V245 H259 V312" fill="#20140d" opacity="0.78"/>
+    <path d="M137 244 L172 226 V314 H137 Z M313 226 L348 244 V314 H313 Z" fill="#7e2725" opacity="0.82" stroke="#20140d" stroke-width="3"/>
+    <circle cx="225" cy="219" r="20" fill="#fff2c4" opacity="0.86"/>
+    <text x="396" y="335" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff7dc" opacity="0.42">04</text>
   
   </g>
   <rect x="38" y="142" width="374" height="208" rx="14" fill="none" stroke="#fff2c4" stroke-opacity="0.58" stroke-width="2"/>

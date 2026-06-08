@@ -36,13 +36,20 @@
   <rect x="33" y="137" width="384" height="218" rx="17" fill="#110d09" opacity="0.78"/>
   <g clip-path="url(#artClip)">
     
-    <rect x="38" y="142" width="374" height="208" fill="url(#artSky)"/>
-    <circle cx="253" cy="189" r="46" fill="#ffe8a3" opacity="0.9"/>
-    <path d="M38 241 C100 207, 164 263, 224 237 C291 208, 348 251, 412 226 L412 350 L38 350 Z" fill="#0f2225" opacity="0.52"/>
-    <path d="M38 251 C132 226, 180 269, 265 247 C332 230, 371 267, 412 255 L412 350 L38 350 Z" fill="#2a170f" opacity="0.62"/>
-    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#f5d27f" stroke-opacity="0.44" stroke-width="4"/>
+    <rect x="38" y="142" width="374" height="208" fill="#275c5f"/>
+    <circle cx="117" cy="175" r="26" fill="#d4f4df" opacity="0.86"/>
+    
+    <path d="M71 186 C127 169, 181 190, 232 174 C286 156, 339 180, 392 164" fill="none" stroke="#fff3bd" stroke-opacity="0.16" stroke-width="2"/>
+    <path d="M38 217 C100 183, 164 239, 224 213 C291 184, 348 227, 412 202 L412 350 L38 350 Z" fill="#173334" opacity="0.58"/>
+    <path d="M38 235 C132 210, 180 253, 265 231 C332 214, 371 251, 412 239 L412 350 L38 350 Z" fill="#0f2225" opacity="0.62"/>
+    <path d="M62 320 C135 292, 190 328, 250 304 C307 282, 355 305, 398 291" fill="none" stroke="#e7d18c" stroke-opacity="0.42" stroke-width="4"/>
     <path d="M88 338 C161 314, 233 342, 331 323" fill="none" stroke="#f8e6aa" stroke-opacity="0.28" stroke-width="3"/>
-    <path d="M170 200 H282 V294 H170 Z" fill="#fff2c4" opacity="0.86" stroke="#20140d" stroke-width="3"/><path d="M189 226 H263 M189 249 H263 M189 272 H236" stroke="#20140d" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+    
+    <path d="M166 198 H286 V310 H166 Z" fill="#e7d18c" opacity="0.82" stroke="#20140d" stroke-width="4"/>
+    <path d="M188 226 H264 M188 250 H264 M188 274 H239" stroke="#20140d" stroke-width="7" stroke-linecap="round" opacity="0.82"/>
+    <circle cx="286" cy="310" r="21" fill="#f2c05d" stroke="#20140d" stroke-width="4"/>
+    <path d="M277 310 H295 M286 301 V319" stroke="#20140d" stroke-width="4" stroke-linecap="round"/>
+    <text x="396" y="335" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#fff7dc" opacity="0.42">05</text>
   
   </g>
   <rect x="38" y="142" width="374" height="208" rx="14" fill="none" stroke="#fff2c4" stroke-opacity="0.58" stroke-width="2"/>
