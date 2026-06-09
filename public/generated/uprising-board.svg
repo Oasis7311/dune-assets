@@ -35,6 +35,8 @@
       .small{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:800;letter-spacing:0;fill:#e7d49e}
       .tiny{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:700;letter-spacing:0;fill:#ead9b0}
       .muted{fill:#bea76e}
+      .map-label{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:900;letter-spacing:0;fill:#f7e7bd;fill-opacity:.34}
+      .map-label-sub{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:800;letter-spacing:0;fill:#ead9b0;fill-opacity:.28}
       .panel{stroke:#e4c775;stroke-opacity:.45;stroke-width:2;filter:url(#softShadow)}
       .route{fill:none;stroke:#f7e4a9;stroke-opacity:.3;stroke-width:3;stroke-dasharray:10 12;stroke-linecap:round}
       .shield{fill:none;stroke:#e6d091;stroke-width:12;stroke-opacity:.55;stroke-linecap:round}
@@ -51,23 +53,23 @@
   <text x="58" y="95" class="small" font-size="18">固定完整盘面 / Scroll Board</text>
 
   <g id="faction-panels">
-    <path class="panel" d="M70 110 H404 L430 138 V292 H70 Z" fill="#384342" fill-opacity=".82"/>
-    <text x="88" y="143" class="title" font-size="22">皇帝</text>
+    <path class="panel" d="M70 110 H404 L430 138 V318 H70 Z" fill="#384342" fill-opacity=".82"/>
+    <text x="88" y="300" class="map-label" font-size="20">皇帝</text>
 
-    <path class="panel" d="M70 326 H418 L444 356 V594 H70 Z" fill="#692b31" fill-opacity=".84"/>
-    <text x="94" y="354" class="title" font-size="22">宇航公会</text>
+    <path class="panel" d="M70 334 H418 L444 364 V642 H70 Z" fill="#692b31" fill-opacity=".84"/>
+    <text x="94" y="624" class="map-label" font-size="20">宇航公会</text>
 
     <path class="panel" d="M70 660 H282 L304 688 V946 H70 Z" fill="#4a315b" fill-opacity=".86"/>
-    <text x="94" y="694" class="title" font-size="22">姐妹会</text>
+    <text x="94" y="928" class="map-label" font-size="20">姐妹会</text>
 
-    <path class="panel" d="M320 660 H502 L530 690 V946 H320 Z" fill="#255c70" fill-opacity=".86"/>
-    <text x="346" y="694" class="title" font-size="22">弗雷曼</text>
+    <path class="panel" d="M320 660 H480 L506 690 V946 H320 Z" fill="#255c70" fill-opacity=".86"/>
+    <text x="336" y="928" class="map-label" font-size="20">弗雷曼</text>
   </g>
 
   <g id="landsraad">
-    <path class="panel" d="M520 78 H1132 L1160 110 V394 H500 V102 Z" fill="url(#landsraad)" fill-opacity=".92"/>
-    <text x="532" y="355" class="title" font-size="24">兰兹拉德议会</text>
-    <text x="532" y="382" class="tiny" font-size="13">LANDSRAAD</text>
+    <path class="panel" d="M520 78 H1132 L1160 110 V424 H500 V102 Z" fill="url(#landsraad)" fill-opacity=".92"/>
+    <text x="526" y="405" class="map-label" font-size="20">兰兹拉德议会</text>
+    <text x="720" y="405" class="map-label-sub" font-size="12">LANDSRAAD</text>
     <path class="route" d="M610 196 C720 162 870 162 1000 196"/>
     <path class="route" d="M610 310 C755 260 900 260 1030 310"/>
   </g>
@@ -83,8 +85,8 @@
 
   <g id="arrakis-cities">
     <path class="panel" d="M546 430 H1128 L1160 468 V692 H520 V462 Z" fill="url(#arrakisCity)" fill-opacity=".9"/>
-    <text x="548" y="672" class="title" font-size="24">阿拉基斯城邦</text>
-    <text x="548" y="696" class="tiny" font-size="13">ARRAKIS CITIES</text>
+    <text x="535" y="681" class="map-label" font-size="18">阿拉基斯城邦</text>
+    <text x="680" y="681" class="map-label-sub" font-size="11">ARRAKIS CITIES</text>
     <path class="route" d="M696 522 C770 492 890 492 970 522"/>
     <path class="route" d="M696 646 C790 614 900 618 970 646"/>
   </g>
@@ -97,8 +99,8 @@
 
   <g id="arrakis-desert">
     <path class="panel" d="M540 760 H1228 L1260 796 V970 H512 V796 Z" fill="url(#arrakisDesert)" fill-opacity=".78"/>
-    <text x="548" y="944" class="title" font-size="24">沙漠与造物主</text>
-    <text x="548" y="968" class="tiny" font-size="13">DESERT / MAKER SPACES</text>
+    <text x="548" y="948" class="map-label" font-size="18">沙漠与造物主</text>
+    <text x="706" y="948" class="map-label-sub" font-size="11">DESERT / MAKER SPACES</text>
     <path class="route" d="M658 878 C760 828 874 895 1000 856 C1088 828 1140 812 1210 854"/>
     <path d="M1180 722 C1240 702 1303 728 1336 782 C1285 768 1238 782 1196 822 C1212 782 1208 748 1180 722 Z" fill="#3f241a" fill-opacity=".55"/>
     <text x="1210" y="780" class="muted tiny" font-size="15">WORM SIGN</text>
@@ -124,9 +126,9 @@
     </g>
   </g>
 
-  <g id="board-notes" opacity=".78">
-    <text x="1220" y="470" class="title" font-size="22">冲突区</text>
-    <text x="1220" y="498" class="tiny" font-size="14">CONFLICT</text>
-    <rect x="1215" y="520" width="250" height="230" rx="12" fill="#0a1d21" fill-opacity=".38" stroke="#f0d58a" stroke-opacity=".28"/>
+  <g id="board-notes" opacity=".74">
+    <text x="1198" y="368" class="map-label" font-size="20">冲突区</text>
+    <text x="1270" y="368" class="map-label-sub" font-size="12">CONFLICT</text>
+    <rect x="1190" y="384" width="244" height="226" rx="12" fill="#0a1d21" fill-opacity=".34" stroke="#f0d58a" stroke-opacity=".24"/>
   </g>
 </svg>
