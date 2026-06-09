@@ -15,7 +15,7 @@ ASSET_BASE_URL=https://cdn.jsdelivr.net/gh/Oasis7311/dune-assets@<commit-sha>/pu
 Current production commit:
 
 ```text
-2ba71815d05dea50319f54c853d75417e5f9a505
+679c48f81195039a8b40ed8264342ce824e5ba8d
 ```
 
 ## Sync From App
