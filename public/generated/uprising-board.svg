@@ -36,10 +36,6 @@
       .tiny{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:700;letter-spacing:0;fill:#ead9b0}
       .muted{fill:#bea76e}
       .panel{stroke:#e4c775;stroke-opacity:.45;stroke-width:2;filter:url(#softShadow)}
-      .printed-space{fill:#091e21;fill-opacity:.58;stroke:#f0d58a;stroke-opacity:.55;stroke-width:2}
-      .printed-space.city{fill:#233130;fill-opacity:.74}
-      .printed-space.desert{fill:#5b3722;fill-opacity:.62}
-      .printed-dot{fill:#efc75e;stroke:#fff2ca;stroke-width:2}
       .route{fill:none;stroke:#f7e4a9;stroke-opacity:.3;stroke-width:3;stroke-dasharray:10 12;stroke-linecap:round}
       .shield{fill:none;stroke:#e6d091;stroke-width:12;stroke-opacity:.55;stroke-linecap:round}
       .shield-edge{fill:none;stroke:#2c3430;stroke-width:22;stroke-opacity:.38;stroke-linecap:round}
@@ -56,55 +52,24 @@
 
   <g id="faction-panels">
     <path class="panel" d="M70 110 H404 L430 138 V292 H70 Z" fill="#384342" fill-opacity=".82"/>
-    <text x="96" y="150" class="title" font-size="24">皇帝</text>
-    <text x="96" y="176" class="tiny" font-size="14">EMPEROR</text>
-    <rect class="printed-space" x="135" y="125" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="135" y="220" width="174" height="64" rx="28"/>
-    <circle class="printed-dot" cx="118" cy="158" r="9"/>
-    <circle class="printed-dot" cx="118" cy="253" r="9"/>
+    <text x="88" y="143" class="title" font-size="22">皇帝</text>
 
     <path class="panel" d="M70 326 H418 L444 356 V594 H70 Z" fill="#692b31" fill-opacity=".84"/>
-    <text x="96" y="367" class="title" font-size="24">宇航公会</text>
-    <text x="96" y="393" class="tiny" font-size="14">SPACING GUILD</text>
-    <rect class="printed-space" x="135" y="360" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="135" y="455" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="135" y="550" width="174" height="64" rx="28"/>
-    <circle class="printed-dot" cx="118" cy="392" r="9"/>
-    <circle class="printed-dot" cx="118" cy="487" r="9"/>
-    <circle class="printed-dot" cx="118" cy="582" r="9"/>
+    <text x="94" y="354" class="title" font-size="22">宇航公会</text>
 
     <path class="panel" d="M70 660 H282 L304 688 V946 H70 Z" fill="#4a315b" fill-opacity=".86"/>
-    <text x="94" y="702" class="title" font-size="24">姐妹会</text>
-    <text x="94" y="728" class="tiny" font-size="14">BENE GESSERIT</text>
-    <rect class="printed-space" x="96" y="710" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="96" y="805" width="174" height="64" rx="28"/>
-    <circle class="printed-dot" cx="282" cy="742" r="9"/>
-    <circle class="printed-dot" cx="282" cy="837" r="9"/>
+    <text x="94" y="694" class="title" font-size="22">姐妹会</text>
 
     <path class="panel" d="M320 660 H502 L530 690 V946 H320 Z" fill="#255c70" fill-opacity=".86"/>
-    <text x="346" y="702" class="title" font-size="24">弗雷曼</text>
-    <text x="346" y="728" class="tiny" font-size="14">FREMEN</text>
-    <rect class="printed-space" x="360" y="710" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="360" y="805" width="174" height="64" rx="28"/>
-    <circle class="printed-dot" cx="343" cy="742" r="9"/>
-    <circle class="printed-dot" cx="343" cy="837" r="9"/>
+    <text x="346" y="694" class="title" font-size="22">弗雷曼</text>
   </g>
 
   <g id="landsraad">
     <path class="panel" d="M520 78 H1132 L1160 110 V394 H500 V102 Z" fill="url(#landsraad)" fill-opacity=".92"/>
-    <text x="548" y="128" class="title" font-size="26">兰兹拉德议会</text>
-    <text x="548" y="156" class="tiny" font-size="14">LANDSRAAD</text>
+    <text x="532" y="355" class="title" font-size="24">兰兹拉德议会</text>
+    <text x="532" y="382" class="tiny" font-size="13">LANDSRAAD</text>
     <path class="route" d="M610 196 C720 162 870 162 1000 196"/>
     <path class="route" d="M610 310 C755 260 900 260 1030 310"/>
-    <rect class="printed-space" x="570" y="100" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="760" y="100" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="950" y="100" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="560" y="215" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="760" y="215" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="960" y="215" width="174" height="64" rx="28"/>
-    <rect class="printed-space" x="765" y="330" width="174" height="64" rx="28"/>
-    <circle class="printed-dot" cx="544" cy="247" r="10"/>
-    <circle class="printed-dot" cx="1142" cy="247" r="10"/>
   </g>
 
   <g id="contracts">
@@ -118,14 +83,10 @@
 
   <g id="arrakis-cities">
     <path class="panel" d="M546 430 H1128 L1160 468 V692 H520 V462 Z" fill="url(#arrakisCity)" fill-opacity=".9"/>
-    <text x="574" y="478" class="title" font-size="26">阿拉基斯城邦</text>
-    <text x="574" y="506" class="tiny" font-size="14">ARRAKIS CITIES</text>
+    <text x="548" y="672" class="title" font-size="24">阿拉基斯城邦</text>
+    <text x="548" y="696" class="tiny" font-size="13">ARRAKIS CITIES</text>
     <path class="route" d="M696 522 C770 492 890 492 970 522"/>
     <path class="route" d="M696 646 C790 614 900 618 970 646"/>
-    <rect class="printed-space city" x="610" y="455" width="174" height="64" rx="28"/>
-    <rect class="printed-space city" x="840" y="455" width="174" height="64" rx="28"/>
-    <rect class="printed-space city" x="610" y="580" width="174" height="64" rx="28"/>
-    <rect class="printed-space city" x="840" y="580" width="174" height="64" rx="28"/>
   </g>
 
   <g id="shield-wall">
@@ -136,13 +97,9 @@
 
   <g id="arrakis-desert">
     <path class="panel" d="M540 760 H1228 L1260 796 V970 H512 V796 Z" fill="url(#arrakisDesert)" fill-opacity=".78"/>
-    <text x="565" y="805" class="title" font-size="26">沙漠与造物主</text>
-    <text x="565" y="833" class="tiny" font-size="14">DESERT / MAKER SPACES</text>
+    <text x="548" y="944" class="title" font-size="24">沙漠与造物主</text>
+    <text x="548" y="968" class="tiny" font-size="13">DESERT / MAKER SPACES</text>
     <path class="route" d="M658 878 C760 828 874 895 1000 856 C1088 828 1140 812 1210 854"/>
-    <rect class="printed-space desert" x="575" y="795" width="174" height="64" rx="28"/>
-    <rect class="printed-space desert" x="790" y="820" width="174" height="64" rx="28"/>
-    <rect class="printed-space desert" x="1010" y="820" width="174" height="64" rx="28"/>
-    <rect class="printed-space desert" x="1110" y="645" width="174" height="64" rx="28"/>
     <path d="M1180 722 C1240 702 1303 728 1336 782 C1285 768 1238 782 1196 822 C1212 782 1208 748 1180 722 Z" fill="#3f241a" fill-opacity=".55"/>
     <text x="1210" y="780" class="muted tiny" font-size="15">WORM SIGN</text>
   </g>
