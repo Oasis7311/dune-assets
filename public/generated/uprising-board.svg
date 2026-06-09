@@ -127,7 +127,7 @@
   </g>
 
   <g id="board-notes" opacity=".74">
-    <text x="1198" y="368" class="map-label" font-size="20">冲突区</text>
+    <text x="1198" y="368" class="map-label" font-size="20">战斗区</text>
     <text x="1270" y="368" class="map-label-sub" font-size="12">CONFLICT</text>
     <rect x="1190" y="384" width="244" height="226" rx="12" fill="#0a1d21" fill-opacity=".34" stroke="#f0d58a" stroke-opacity=".24"/>
   </g>
