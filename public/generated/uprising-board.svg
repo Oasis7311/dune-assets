@@ -62,7 +62,7 @@
   <g id="faction-panels">
     <g id="emperor-panel">
       <rect class="rail" x="44" y="52" width="120" height="292" rx="4" fill="#171414" fill-opacity=".72"/>
-      <rect x="58" y="68" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".72"/>
+      <rect x="58" y="68" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".24"/>
       <circle cx="104" cy="248" r="19" fill="#f0c356" fill-opacity=".92"/>
       <rect x="58" y="298" width="92" height="28" rx="2" fill="#0a0b0d" fill-opacity=".62"/>
       <text x="88" y="330" class="map-sub" font-size="12" transform="rotate(-90 88 330)">EMPEROR 皇帝</text>
@@ -71,7 +71,7 @@
 
     <g id="guild-panel">
       <rect class="rail" x="44" y="382" width="120" height="316" rx="4" fill="#171414" fill-opacity=".72"/>
-      <rect x="58" y="398" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".72"/>
+      <rect x="58" y="398" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".24"/>
       <circle cx="104" cy="588" r="19" fill="#f0c356" fill-opacity=".92"/>
       <rect x="58" y="648" width="92" height="28" rx="2" fill="#0a0b0d" fill-opacity=".62"/>
       <text x="88" y="674" class="map-sub" font-size="12" transform="rotate(-90 88 674)">SPACING GUILD 宇航公会</text>
@@ -80,7 +80,7 @@
 
     <g id="bene-panel">
       <rect class="rail" x="44" y="730" width="120" height="322" rx="4" fill="#171414" fill-opacity=".72"/>
-      <rect x="58" y="746" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".72"/>
+      <rect x="58" y="746" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".24"/>
       <circle cx="104" cy="938" r="19" fill="#f0c356" fill-opacity=".92"/>
       <rect x="58" y="1002" width="92" height="28" rx="2" fill="#0a0b0d" fill-opacity=".62"/>
       <text x="88" y="1028" class="map-sub" font-size="12" transform="rotate(-90 88 1028)">BENE GESSERIT 姐妹会</text>
@@ -89,7 +89,7 @@
 
     <g id="fremen-panel">
       <rect class="rail" x="44" y="1082" width="120" height="356" rx="4" fill="#171414" fill-opacity=".72"/>
-      <rect x="58" y="1098" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".72"/>
+      <rect x="58" y="1098" width="92" height="70" rx="4" fill="#8a6a2a" fill-opacity=".24"/>
       <circle cx="104" cy="1272" r="19" fill="#f0c356" fill-opacity=".92"/>
       <rect x="58" y="1388" width="92" height="28" rx="2" fill="#0a0b0d" fill-opacity=".62"/>
       <text x="88" y="1414" class="map-sub" font-size="12" transform="rotate(-90 88 1414)">FREMEN 弗雷曼</text>
@@ -98,7 +98,7 @@
   </g>
 
   <g id="landsraad">
-    <path class="panel" d="M540 52 H1236 L1262 78 V414 H520 V78 Z" fill="url(#landsraad)" fill-opacity=".9"/>
+    <path class="panel" d="M540 52 H1236 L1262 78 V414 H520 V78 Z" fill="url(#landsraad)" fill-opacity=".28"/>
     <text x="562" y="84" class="tiny" font-size="15">LANDSRAAD COUNCIL 兰兹拉德议会</text>
     <path class="route" d="M618 168 C724 128 868 128 978 168"/>
     <path class="route" d="M618 288 C776 238 972 240 1130 286"/>
@@ -114,7 +114,7 @@
   </g>
 
   <g id="arrakis-cities">
-    <path class="panel" d="M570 410 H1510 L1550 450 V842 H520 V450 Z" fill="url(#arrakisCity)" fill-opacity=".78"/>
+    <path class="panel" d="M570 410 H1510 L1550 450 V842 H520 V450 Z" fill="url(#arrakisCity)" fill-opacity=".28"/>
     <text x="594" y="824" class="map-label" font-size="30">阿拉基斯城邦</text>
     <text x="596" y="850" class="map-sub" font-size="16">ARRAKIS CITIES</text>
     <path class="route" d="M726 628 C858 552 994 520 1130 490 C1242 466 1374 468 1484 510"/>
@@ -128,7 +128,7 @@
   </g>
 
   <g id="arrakis-desert">
-    <path class="panel" d="M546 900 H1220 L1250 934 V1338 H520 V934 Z" fill="url(#arrakisDesert)" fill-opacity=".78"/>
+    <path class="panel" d="M546 900 H1220 L1250 934 V1338 H520 V934 Z" fill="url(#arrakisDesert)" fill-opacity=".28"/>
     <text x="564" y="1312" class="map-label" font-size="28">沙漠与造物主</text>
     <text x="566" y="1338" class="map-sub" font-size="16">DESERT / MAKER SPACES</text>
     <path class="route" d="M646 1024 C778 972 870 1030 982 992 C1072 960 1144 968 1202 1028"/>
@@ -137,7 +137,7 @@
   </g>
 
   <g id="battle-area">
-    <path class="panel" d="M1320 934 H1660 V1338 H1320 Z" fill="url(#battleZone)" fill-opacity=".9"/>
+    <path class="panel" d="M1320 934 H1660 V1338 H1320 Z" fill="url(#battleZone)" fill-opacity=".34"/>
     <text x="1350" y="984" class="title" font-size="30">战斗区</text>
     <text x="1352" y="1014" class="tiny" font-size="16">CONFLICT</text>
     <path d="M1410 1080 L1570 1260 M1570 1080 L1410 1260" fill="none" stroke="#f7e7bd" stroke-opacity=".16" stroke-width="20" stroke-linecap="round"/>
