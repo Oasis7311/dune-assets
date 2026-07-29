@@ -33,7 +33,9 @@
 
 ### 汇率更新会上传账本吗？
 
-不会。启用多币种汇率更新时，只会请求所选币种代码对应的公开汇率，不会上传交易、余额、标签、备注或其他账本内容。
+不会。启用多个币种后，App 最多每 24 小时自动刷新一次汇率，也可以由你手动刷新。刷新时只会向 ExchangeRate-API Open Access 服务发送本位币代码，不会上传目标币种列表、交易、余额、标签、备注或其他账本内容。
+
+在线值每日更新，仅用于账本估算，不代表银行成交或结算价格；App 中仍可手动覆盖汇率。汇率来源：[Rates By Exchange Rate API](https://www.exchangerate-api.com)。
 
 ## 隐私政策
 
@@ -44,6 +46,8 @@
 ## MonthLedger Support
 
 MonthLedger is a local-first personal finance app focused on monthly closing, budgets, accounts, net-worth snapshots, tags, multi-currency records, imports/exports, and widgets.
+
+After multiple currencies are enabled, online reference rates refresh no more than once every 24 hours and can also be refreshed manually. They are used only for ledger estimates, not as bank transaction or settlement rates, and remain manually editable in the app. Source: [Rates By Exchange Rate API](https://www.exchangerate-api.com).
 
 For help or feedback, email **Oasis7311.monthledger@gmail.com**. Please do not include real financial records, account balances, bank details, or other sensitive information.
 

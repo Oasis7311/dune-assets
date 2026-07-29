@@ -1,6 +1,6 @@
 # 月结账本隐私政策
 
-生效日期：2026 年 7 月 26 日
+生效日期：2026 年 7 月 30 日
 
 月结账本（MonthLedger）尊重并保护你的隐私。本政策说明 App 如何处理数据。
 
@@ -16,7 +16,9 @@
 
 ## 3. 汇率服务
 
-当你启用多币种并请求更新汇率时，App 会通过 HTTPS 向第三方公开汇率服务 [exchangerate.dev](https://exchangerate.dev/) 发送基础币种和目标币种代码，以获取对应汇率。请求不会包含交易记录、余额、账户名称、标签、备注、联系人信息、设备标识符或其他账本内容。与一般互联网请求相同，汇率服务及其基础设施可能处理 IP 地址等必要网络信息；相关处理由该服务自身的条款与政策约束。
+当你启用多个币种后，App 最多每 24 小时自动刷新一次汇率，你也可以手动请求更新。刷新时，App 会通过 HTTPS 向免密公开的 ExchangeRate-API Open Access 服务发送你选择的本位币代码。服务返回每日参考汇率，App 仅将这些数值用于账本估算；它们不代表银行成交、交易执行、清算或结算价格。汇率来源：[Rates By Exchange Rate API](https://www.exchangerate-api.com)。
+
+请求不会包含交易记录、余额、账户名称、标签、备注、联系人信息、设备标识符或其他账本内容，也不会发送目标币种列表。与任何联网请求一样，汇率服务及其网络基础设施服务商可能为了传输、安全和防止滥用而处理 IP 地址、请求时间、本位币代码等必要的网络信息；相关处理适用服务商自身的政策。
 
 ## 4. 权限与第三方服务
 
@@ -38,13 +40,15 @@
 
 # MonthLedger Privacy Policy
 
-Effective date: July 26, 2026
+Effective date: July 30, 2026
 
-MonthLedger does not require an account and does not collect, store, sell, or use personal data, financial records, account balances, notes, identifiers, location, or usage data for advertising, analytics, or tracking.
+MonthLedger does not require an account. The developer does not receive, collect, store, sell, or use your financial records, account balances, notes, contacts, location, or usage data for advertising, analytics, or tracking. If online exchange-rate updates are enabled, the service may process basic network metadata as described below.
 
 Ledger data is stored locally on the device. The main app shares only the data needed for widgets and quick entry with its own Widget extension through Apple's App Group container. The developer cannot access this local data.
 
-If the user enables multi-currency exchange-rate updates, the app sends only the selected base and target currency codes over HTTPS to [exchangerate.dev](https://exchangerate.dev/). It does not send transactions, balances, account names, tags, notes, contact information, or device identifiers. As with ordinary Internet requests, the service and its infrastructure may process necessary network information such as the requesting IP address under their own terms and policies.
+After the user enables multiple currencies, the app automatically refreshes rates no more than once every 24 hours; the user can also request a manual refresh. Each refresh sends the selected base-currency code over HTTPS to the keyless public ExchangeRate-API Open Access service. The service returns daily reference rates, which the app uses only for ledger estimates; they are not bank transaction, trade execution, clearing, or settlement rates. Source: [Rates By Exchange Rate API](https://www.exchangerate-api.com).
+
+The request does not include target-currency selections, transactions, balances, account names, tags, notes, contact information, device identifiers, or other ledger content. As with any internet request, the exchange-rate service and its network infrastructure providers may process necessary network information such as the IP address, request time, and base-currency code to deliver and secure the service and prevent abuse under their own policies.
 
 MonthLedger does not include advertising SDKs, third-party analytics SDKs, social login, or bank connections. CSV exports are created only at the user's request and are saved or shared to destinations chosen by the user.
 
