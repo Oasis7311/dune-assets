@@ -4,9 +4,11 @@
 
 月结账本（MonthLedger）尊重并保护你的隐私。本政策说明 App 如何处理数据。
 
-## 1. 不收集个人数据
+## 1. 数据收集范围
 
-月结账本无需注册或登录。开发者不会收集、存储或出售你的姓名、联系方式、设备标识符、位置、使用行为、交易记录、账户余额、标签、备注或其他账本内容，也不会使用这些数据进行广告、分析或跨 App 跟踪。
+月结账本无需注册或登录。开发者不会接收、存储或出售你的姓名、联系方式、位置、使用行为、交易记录、账户余额、标签、备注或其他账本内容，也不会使用这些数据进行广告、分析或跨 App 跟踪。
+
+仅当你启用在线汇率更新时，第三方汇率服务可能为了提供汇率、限制滥用和保障服务安全而收集 IP 地址、请求时间和本位币代码等必要网络信息。这些信息可能与设备或网络身份关联，但不会用于广告或跨 App 跟踪。具体范围见第 3 节。
 
 ## 2. 本地数据存储
 
@@ -26,7 +28,7 @@
 
 ## 5. 儿童隐私
 
-月结账本不会有意收集任何用户（包括儿童）的个人信息，因为 App 本身不收集个人数据。
+月结账本不面向儿童提供专门服务，开发者无法访问保存在设备本地的账本内容。启用在线汇率时产生的必要网络信息按照第 3 节所述由第三方汇率服务处理。
 
 ## 6. 政策更新
 
@@ -42,7 +44,7 @@
 
 Effective date: July 30, 2026
 
-MonthLedger does not require an account. The developer does not receive, collect, store, sell, or use your financial records, account balances, notes, contacts, location, or usage data for advertising, analytics, or tracking. If online exchange-rate updates are enabled, the service may process basic network metadata as described below.
+MonthLedger does not require an account. The developer does not receive, store, sell, or use your financial records, account balances, notes, contacts, location, or usage data for advertising, analytics, or tracking. If online exchange-rate updates are enabled, the third-party rate service may collect the IP address, request time, and base-currency code to provide rates, prevent abuse, and secure the service. This information may be linked to a device or network identity, but it is not used for advertising or cross-app tracking.
 
 Ledger data is stored locally on the device. The main app shares only the data needed for widgets and quick entry with its own Widget extension through Apple's App Group container. The developer cannot access this local data.
 
