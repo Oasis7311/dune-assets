@@ -1,4 +1,49 @@
-# 月结账本（MonthLedger）支持
+# MonthLedger Support
+
+MonthLedger is a local-first personal finance app built around month-end closing. It supports fast transaction entry, accounts and credit-card statement periods, budget carryover, month-end net worth, tag groups, multiple currencies, borrowing and lending, CSV import and export, and Home Screen widgets.
+
+## Get Help
+
+For help or feedback, email:
+
+**Oasis7311.monthledger@gmail.com**
+
+To help us investigate, you may include:
+
+- Your iPhone model and iOS version
+- Your MonthLedger version
+- The steps that led to the issue
+- Screenshots that do not contain sensitive financial information
+
+Do not email real financial records, account balances, bank details, or other sensitive information.
+
+## Frequently Asked Questions
+
+### Do I need to create an account?
+
+No. MonthLedger has no account system and no subscription.
+
+### Where is my data stored?
+
+Your ledger is stored locally on your device. MonthLedger shares the data required by its own widgets through an Apple App Group container. The developer cannot access your ledger data.
+
+### How do I back up or move my data?
+
+Use CSV import and export in MonthLedger Settings. You choose where exported files are saved and how they are shared.
+
+### Does updating exchange rates upload my ledger?
+
+No. After you enable multiple currencies, MonthLedger refreshes reference rates no more than once every 24 hours. You can also refresh them manually. Each request sends only your selected base-currency code to the ExchangeRate-API Open Access service. It does not include your target-currency list, transactions, balances, tags, notes, or other ledger data.
+
+Online rates are updated daily and are used only for estimates. They may differ from bank, transaction, or settlement rates, and you can edit them manually in the app. Source: [Rates By Exchange Rate API](https://www.exchangerate-api.com).
+
+## Privacy Policy
+
+Read the [MonthLedger Privacy Policy](PRIVACY.md).
+
+---
+
+# 月结账本支持
 
 月结账本是一款以月度结算为核心的个人财务记录工具，支持快速记账、账户与信用卡账期、预算结转、月末净资产、标签分组、多币种、借入借出、CSV 导入导出和桌面小组件。
 
@@ -39,16 +84,4 @@
 
 ## 隐私政策
 
-请查看 [月结账本隐私政策](PRIVACY.md)。
-
----
-
-## MonthLedger Support
-
-MonthLedger is a local-first personal finance app focused on monthly closing, budgets, accounts, net-worth snapshots, tags, multi-currency records, imports/exports, and widgets.
-
-After multiple currencies are enabled, online reference rates refresh no more than once every 24 hours and can also be refreshed manually. They are used only for ledger estimates, not as bank transaction or settlement rates, and remain manually editable in the app. Source: [Rates By Exchange Rate API](https://www.exchangerate-api.com).
-
-For help or feedback, email **Oasis7311.monthledger@gmail.com**. Please do not include real financial records, account balances, bank details, or other sensitive information.
-
-Read the [Privacy Policy](PRIVACY.md).
+请查看[月结账本隐私政策](PRIVACY.md)。
