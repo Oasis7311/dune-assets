@@ -1,6 +1,6 @@
 # 月结账本隐私政策
 
-生效日期：2026 年 7 月 30 日
+生效日期：2026 年 8 月 4 日
 
 月结账本（MonthLedger）尊重并保护你的隐私。本政策说明 App 如何处理数据。
 
@@ -42,7 +42,7 @@
 
 # MonthLedger Privacy Policy
 
-Effective date: July 30, 2026
+Effective date: August 4, 2026
 
 MonthLedger does not require an account. The developer does not receive, store, sell, or use your financial records, account balances, notes, contacts, location, or usage data for advertising, analytics, or tracking. If online exchange-rate updates are enabled, the third-party rate service may collect the IP address, request time, and base-currency code to provide rates, prevent abuse, and secure the service. This information may be linked to a device or network identity, but it is not used for advertising or cross-app tracking.
 
