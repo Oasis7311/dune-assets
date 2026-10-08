@@ -1,12 +1,16 @@
 # MonthLedger Support
 
-MonthLedger is a local-first personal finance app built around month-end closing. It supports fast transaction entry, accounts and credit-card statement periods, budget carryover, month-end net worth, tag groups, multiple currencies, borrowing and lending, CSV import and export, and Home Screen widgets.
+MonthLedger is a local-first personal finance app built around month-end closing. It supports fast transaction entry, accounts and credit-card statement periods, budget carryover, month-end net worth, tag groups, multiple currencies, borrowing and lending, custom trend periods, batch account/category changes, feature guides, full JSON backups with optional daily iCloud backup and restore, CSV import and export, and Home Screen widgets.
 
 ## Get Help
 
-For help or feedback, email:
+MonthLedger is free to download and use, with no subscriptions or in-app purchases.
 
-**Oasis7311.monthledger@gmail.com**
+A benefit for users: MonthLedger is actively developed, and you can reach me directly with special feature requests or bug reports. I will use your real-world needs to guide adaptations, fixes, and improvements.
+
+For help or feedback, email me directly:
+
+**Oasis7311+monthledger@gmail.com**
 
 To help us investigate, you may include:
 
@@ -25,11 +29,11 @@ No. MonthLedger has no account system and no subscription.
 
 ### Where is my data stored?
 
-Your ledger is stored locally on your device. MonthLedger shares the data required by its own widgets through an Apple App Group container. The developer cannot access your ledger data.
+Your ledger is stored locally on your device. MonthLedger shares the data required by its own widgets through an Apple App Group container. If you enable iCloud backups, full backup files are saved to your chosen iCloud Drive folder. This is file backup and restore, not live ledger synchronization. The developer cannot access your ledger data.
 
 ### How do I back up or move my data?
 
-Use CSV import and export in MonthLedger Settings. You choose where exported files are saved and how they are shared.
+Open Settings > Data & Backups. Use a complete JSON backup to back up or restore your ledger and settings. CSV import and export support viewing and migration; preview an import before applying it. You choose where exported files are saved and how they are shared. In iCloud Backup & Restore, choose an iCloud Drive folder to enable daily full backups or restore a saved backup. iOS schedules background runs; missed backups run the next time you open the app. The app preserves backup history. Restoring a selected backup replaces the local ledger after a preview and a local recovery point.
 
 ### Does updating exchange rates upload my ledger?
 
@@ -45,13 +49,13 @@ Read the [MonthLedger Privacy Policy](PRIVACY.md).
 
 # 月结账本支持
 
-月结账本是一款以月度结算为核心的个人财务记录工具，支持快速记账、账户与信用卡账期、预算结转、月末净资产、标签分组、多币种、借入借出、CSV 导入导出和桌面小组件。
+月结账本是一款以月度结算为核心的个人财务记录工具，支持快速记账、账户与信用卡账期、预算结转、月末净资产、标签分组、多币种、借入借出、自定义趋势周期、账户与类目批量转换、功能引导、完整 JSON 备份与可选的每日 iCloud 备份恢复、CSV 导入导出和桌面小组件。
 
 ## 获取帮助
 
 如遇到问题或希望提出建议，请发送邮件至：
 
-**Oasis7311.monthledger@gmail.com**
+**Oasis7311+monthledger@gmail.com**
 
 为了更快定位问题，邮件中可以附上：
 
@@ -70,11 +74,11 @@ Read the [MonthLedger Privacy Policy](PRIVACY.md).
 
 ### 数据保存在哪里？
 
-账本数据保存在设备本地，并通过 App Group 与月结账本桌面小组件共享。开发者不会接收你的账目内容。
+账本数据保存在设备本地，并通过 App Group 与月结账本桌面小组件共享。可选开启 iCloud 备份，将完整备份文件保存到你指定的 iCloud 云盘文件夹。这是文件备份与恢复，不是账本实时同步。开发者不会接收你的账目内容。
 
 ### 如何备份或迁移？
 
-可在 App 设置中使用 CSV 导入导出功能。导出的文件由你自行选择保存位置和分享方式。
+在“设置 > 数据与备份”中使用完整 JSON 备份来备份或恢复账本及设置。CSV 导入导出用于查看与迁移，导入前可预览影响。导出的文件由你自行选择保存位置和分享方式。在“iCloud 备份与恢复”中选择 iCloud 云盘文件夹，可开启每日完整备份或恢复历史文件。后台由系统安排，未执行时下次打开补备份；App 会保留历史备份；预览并确认恢复后，先保存本地恢复点，再替换本机账本。
 
 ### 汇率更新会上传账本吗？
 

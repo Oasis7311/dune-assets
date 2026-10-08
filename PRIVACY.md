@@ -1,6 +1,6 @@
 # MonthLedger Privacy Policy
 
-Effective date: August 4, 2026
+Effective date: October 8, 2026
 
 MonthLedger respects your privacy. This policy explains how the app handles data.
 
@@ -10,11 +10,11 @@ MonthLedger does not require registration or sign-in. The developer does not rec
 
 If you enable online exchange-rate updates, the third-party rate service may process necessary network information, such as your IP address, request time, and base-currency code, to provide rates, prevent abuse, and secure the service. This information may be linked to a device or network identity, but it is not used for advertising or cross-app tracking. See Section 3 for details.
 
-## 2. Local Data Storage
+## 2. Data Storage and Backups
 
 Your ledger is stored locally on your device. The main app shares only the data needed for widgets and quick entry with MonthLedger’s own widget extension through an Apple App Group container. This sharing occurs only between MonthLedger and its widget on your device. The developer cannot access this local data.
 
-Deleting MonthLedger also deletes the app data managed locally by iOS. CSV exports are created only at your request, and you choose where they are saved and how they are shared. The developer cannot access or control exported files.
+Deleting MonthLedger also deletes the app data managed locally by iOS. CSV exports and full JSON backups are created at your request, and you choose where they are saved and how they are shared. If you enable daily iCloud backups, the app saves full JSON snapshots to the iCloud Drive folder you select, and Apple synchronizes those files using your iCloud account. You can turn automatic backup off at any time. Turning off automatic backups does not delete existing exported files. Files in iCloud Drive remain subject to your iCloud settings and file management. iOS controls background backup scheduling; missed backups are attempted when you next open the app. This is file backup, not live ledger synchronization. Restoring a file replaces the local ledger after saving a local recovery point. The developer cannot access or control exported or iCloud backup files.
 
 ## 3. Exchange-Rate Service
 
@@ -24,7 +24,7 @@ The request does not include target-currency selections, transactions, balances,
 
 ## 4. Permissions and Third-Party Services
 
-MonthLedger does not include advertising SDKs, third-party analytics SDKs, social sign-in, or bank connections. It does not request access to your contacts, precise location, microphone, camera, or health data.
+MonthLedger does not include advertising SDKs, third-party analytics SDKs, social sign-in, or bank connections. It does not request access to your contacts, precise location, microphone, camera, or health data. Backup import and export use the system file picker. You choose the file or folder that the app can access; iCloud backups use your Apple account through iCloud Drive, without sending backup files to the developer.
 
 ## 5. Children’s Privacy
 
@@ -36,13 +36,13 @@ If MonthLedger’s data-handling practices change, this policy will be updated w
 
 ## 7. Contact
 
-For privacy questions, email **Oasis7311.monthledger@gmail.com**.
+For privacy questions, email **Oasis7311+monthledger@gmail.com**.
 
 ---
 
 # 月结账本隐私政策
 
-生效日期：2026 年 8 月 4 日
+生效日期：2026 年 10 月 8 日
 
 月结账本（MonthLedger）尊重并保护你的隐私。本政策说明 App 如何处理数据。
 
@@ -52,11 +52,11 @@ For privacy questions, email **Oasis7311.monthledger@gmail.com**.
 
 仅当你启用在线汇率更新时，第三方汇率服务可能为了提供汇率、限制滥用和保障服务安全而收集 IP 地址、请求时间和本位币代码等必要网络信息。这些信息可能与设备或网络身份关联，但不会用于广告或跨 App 跟踪。具体范围见第 3 节。
 
-## 2. 本地数据存储
+## 2. 数据存储与备份
 
 账本数据保存在你的设备本地。主 App 会通过 Apple 的 App Group 机制与月结账本桌面小组件共享完成小组件展示与快捷记账所需的数据。此共享只发生在你设备上的月结账本 App 与其小组件之间，开发者无法访问这些内容。
 
-删除 App 会删除由系统管理的本地 App 数据。通过 CSV 导出的文件由你自行选择保存位置和分享对象，开发者无法控制或访问这些文件。
+删除 App 会删除由系统管理的本地 App 数据。CSV 导出和完整 JSON 备份由你选择保存位置和分享对象。开启每日 iCloud 备份后，App 会将完整 JSON 快照写入你选定的 iCloud 云盘文件夹，由 Apple 通过你的 iCloud 账户同步；你可以随时关闭自动备份。关闭自动备份不会删除已导出的文件；iCloud 云盘中的文件仍由你的 iCloud 设置和文件管理操作决定。后台备份由 iOS 安排，未执行时下次打开 App 补备份。这是文件备份，不是账本实时同步。恢复文件时会在替换本地账本前保存本地恢复点。开发者无法控制或访问导出文件及 iCloud 备份。
 
 ## 3. 汇率服务
 
@@ -66,7 +66,7 @@ For privacy questions, email **Oasis7311.monthledger@gmail.com**.
 
 ## 4. 权限与第三方服务
 
-月结账本不接入广告 SDK、第三方分析 SDK、社交登录或银行账户连接。App 不会请求通讯录、精确位置、麦克风、相机或健康数据权限。
+月结账本不接入广告 SDK、第三方分析 SDK、社交登录或银行账户连接。App 不会请求通讯录、精确位置、麦克风、相机或健康数据权限。备份导入导出通过系统文件选择器，由你选择 App 可访问的文件或文件夹；iCloud 备份通过你的 Apple 账户使用 iCloud 云盘，不向开发者发送备份文件。
 
 ## 5. 儿童隐私
 
@@ -78,4 +78,4 @@ For privacy questions, email **Oasis7311.monthledger@gmail.com**.
 
 ## 7. 联系方式
 
-如对本隐私政策有疑问，请发送邮件至：**Oasis7311.monthledger@gmail.com**
+如对本隐私政策有疑问，请发送邮件至：**Oasis7311+monthledger@gmail.com**
